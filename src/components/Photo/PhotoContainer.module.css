@@ -1,0 +1,5 @@
+.col {
+  flex: unset;
+  width: 25%;
+  margin: calc(var(--bs-gutter-x) / 2) 0;
+}

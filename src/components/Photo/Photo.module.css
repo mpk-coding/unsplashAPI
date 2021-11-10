@@ -1,0 +1,35 @@
+.photo {
+  background: gray;
+  position: relative;
+  border-radius: 0.25rem;
+  height: 100%;
+  overflow: hidden;
+
+  --overlayBG: rgba(0, 0, 0, 0.267);
+  --textColor: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}
+
+.img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  padding: 0.5rem 1rem;
+  text-align: start;
+
+  color: var(--textColor);
+  background: var(--overlayBG);
+}
